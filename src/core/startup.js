@@ -45,6 +45,7 @@ export function startup(screenConfig, settingsConfig = {}) {
         multiTexture: true,
         parent: getContainerDiv(),
         banner: true,
+        //resolution: 2,
         title: "Game Title Here", //TODO P3 these could be useful [NT]
         version: "Version Info here", //TODO P3 these could be useful [NT]
         transparent: browser.isSilk, // Fixes silk browser flickering
