@@ -52,5 +52,5 @@ export function init(stageHeight, game) {
     );
 
     resize();
-    window.onresize = fp.debounce(500, resize);
+    window.onresize = fp.debounce(2000, resize);
 }
